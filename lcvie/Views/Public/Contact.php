@@ -4,7 +4,7 @@
 
     <div class="container">
         <div className="d-flex justify-content-center my-3">
-                        <h1 className="text-center border border-2 border-dark p-3 mb-3">Nous contacter</h1>
+                        <h1 className="text-center  border border-2 border-dark p-3 mb-3">Nous contacter</h1>
                     </div>
     <form action="<?php $_SERVER['PHP_SELF'];?>" method="post" enctype="multipart/form-data">
         <div class="row mt-5 bg-light p-5">
@@ -33,12 +33,6 @@
     </div>
 
 
-
-
-
-
-
- 
 <?php 
     $contenu = ob_get_clean();
     require_once('./Views/TemplatePublic.php');

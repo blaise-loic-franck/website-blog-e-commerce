@@ -2,7 +2,7 @@
 
 <div class="container" id="home">
     
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselHome" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -10,24 +10,24 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="./Assets/images/ensemble2.png" height="400px" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none text-dark d-md-block">
-        <h5>Actualité 1</h5>
-        <p>Notre nouvelle collaboration</p>
+      <img src="./Assets/images/ensemble2.png" height="400px" class="d-block w-100 carousel-image" alt="...">
+      <div class="carousel-caption d-none text-white d-md-block ">
+        <h5 class="fs-2">Actualité 1</h5>
+        <p class="fs-3">Notre nouvelle collaboration</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="./Assets/images/zxvc.png" height="400px" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none text-dark d-md-block">
-        <h5>Actualité 2</h5>
-        <p>Notre nouvelle collection</p>
+      <img src="./Assets/images/zxvc.png" height="400px" class="d-block w-100 carousel-image opacity-75"  alt="...">
+      <div class="carousel-caption d-none text-white d-md-block">
+        <h5 class="fs-2">Actualité 2</h5>
+        <p class="fs-3">Notre nouvelle collection</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="./Assets/images/1.jpg" height="400px" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none text-dark  d-md-block">
-        <h5>Actualité 3</h5>
-        <p>Le meilleur site</p>
+      <img src="./Assets/images/1.jpg" height="400px" class="d-block w-100 carousel-image" alt="...">
+      <div class="carousel-caption d-none text-white  d-md-block">
+        <h5 class="fs-2">Actualité 3</h5>
+        <p class="fs-3">Le meilleur site</p>
       </div>
     </div>
   </div>
@@ -41,7 +41,7 @@
   </button>
 </div>
           
-                <h1 class="my-5 text-center">Qui nous sommes?</h1>
+                <h1 class="my-5 text-center text-white">Qui nous sommes?</h1>
                     <?php foreach($articles as $article){ ?>
                     
                         

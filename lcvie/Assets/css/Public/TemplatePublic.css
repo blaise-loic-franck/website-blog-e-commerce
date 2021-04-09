@@ -1,0 +1,22 @@
+.card-title{
+    text-decoration: underline;
+}
+
+#card-accueil{
+    border: none;
+    text-align: justify;
+    background-color: #212529;
+    color: white;
+}
+
+header{
+    border-bottom: double white 3px;
+}
+
+footer{
+    border-top: double white 3px;
+}
+
+img.carousel-image{
+    opacity: 0.7;
+}

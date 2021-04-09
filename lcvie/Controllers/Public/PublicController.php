@@ -209,9 +209,9 @@ class PublicController{
                 echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
             }
         
+        
+        }
         require_once('./Views/Public/Contact.php');
-    }
-
         
     }
     

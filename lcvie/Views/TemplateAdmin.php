@@ -3,8 +3,8 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="./assets/css/Sidebar.css">
-<link rel="stylesheet" href="./assets/css/User.css">
+<link rel="stylesheet" href="./assets/css/Public/Sidebar.css">
+<link rel="stylesheet" href="./assets/css/Public/User.css">
 <link rel="stylesheet" href="./assets/css/Index.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
@@ -84,7 +84,7 @@
 <script src="./Assets/js/scriptSidebar.js"></script>
 <script src="./Assets/js/scriptUser.js"></script>
 <script src="./Assets/js/scriptArticle.js"></script>
-
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
 </body>
 </html> 
